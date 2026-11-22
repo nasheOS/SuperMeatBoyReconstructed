@@ -12,10 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameFunctions.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameFunctions.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0EF43F95-ED2C-4C2D-A87E-776BA94EB983}</ProjectGuid>
